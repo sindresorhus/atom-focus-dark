@@ -19,7 +19,7 @@
 $ apm install focus-dark
 ```
 
-Or Settings → Install → Select `Themes` → Search for `Focus Dark`
+Or Settings → Install → Select `Themes` → Search for `focus-dark`
 
 
 ## Dev
