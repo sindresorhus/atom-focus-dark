@@ -1,7 +1,7 @@
 {
   "name": "focus-dark",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Syntax theme that lets you focus on the content",
   "license": "MIT",
   "repository": "sindresorhus/atom-focus-dark",
