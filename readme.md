@@ -2,15 +2,15 @@
 
 > Syntax theme that lets you focus on the content
 
-![](screenshot.png)
+![](https://github.com/sindresorhus/atom-focus-dark/raw/master/screenshot.png)
 
 #### Works perfectly with Markdown
 
-![](screenshot-markdown.png)
+![](https://github.com/sindresorhus/atom-focus-dark/raw/master/screenshot-markdown.png)
 
 #### And LaTeX
 
-![](screenshot-latex.png)
+![](https://github.com/sindresorhus/atom-focus-dark/raw/master/screenshot-latex.png)
 
 
 ## Install
