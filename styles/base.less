@@ -1,0 +1,54 @@
+@import 'syntax-variables';
+
+:host {
+	background-color: @syntax-background-color;
+	color: @syntax-text-color;
+}
+
+:host .gutter {
+	background-color: @syntax-gutter-background-color;
+	color: @syntax-gutter-text-color;
+}
+
+:host .gutter .line-number.cursor-line {
+	background-color: @syntax-gutter-background-color-selected;
+	color: @syntax-gutter-text-color-selected;
+}
+
+:host .gutter .line-number.cursor-line-no-selection {
+	color: @syntax-gutter-text-color-selected;
+}
+
+:host .wrap-guide {
+	color: @syntax-wrap-guide-color;
+}
+
+:host .indent-guide {
+	color: @syntax-indent-guide-color;
+}
+
+:host .invisible-character {
+	color: @syntax-invisible-character-color;
+}
+
+:host .search-results .marker .region {
+	background-color: transparent;
+	border: @syntax-result-marker-color;
+}
+
+:host .search-results .marker.current-result .region {
+	border: @syntax-result-marker-color-selected;
+}
+
+:host(.is-focused) .cursor {
+	border-color: @syntax-cursor-color;
+}
+
+:host(.is-focused) .selection .region {
+	background-color: @syntax-selection-color;
+}
+
+:host(.is-focused) .line-number.cursor-line-no-selection,
+:host(.is-focused) .line.cursor-line {
+	background-color: #212325;
+}

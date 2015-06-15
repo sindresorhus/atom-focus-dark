@@ -1,0 +1,33 @@
+// Custom
+@visible-color: #c5c8c6;
+@dimmed-color: #999b99;
+@hidden-color: #34373b;
+@hidden-plus-color: fade(@hidden-color, 30%);
+
+// General colors
+@syntax-text-color: @visible-color;
+@syntax-cursor-color: #b6b7b5;
+@syntax-selection-color: rgba(0, 0, 0, 0.3);
+@syntax-background-color: #1b1d1f;
+
+// Guide colors
+@syntax-wrap-guide-color: @hidden-plus-color;
+@syntax-indent-guide-color: @hidden-plus-color;
+@syntax-invisible-character-color: @hidden-color;
+
+// For find and replace markers
+@syntax-result-marker-color: @hidden-color;
+@syntax-result-marker-color-selected: @visible-color;
+
+// Gutter colors
+@syntax-gutter-text-color: @hidden-color;
+@syntax-gutter-text-color-selected: fade(@dimmed-color, 50%);
+@syntax-gutter-background-color: @syntax-background-color;
+@syntax-gutter-background-color-selected: @syntax-background-color;
+
+// For git diff info. i.e. in the gutter
+// These are static and were not extracted from your textmate theme
+@syntax-color-renamed: #96cbfe;
+@syntax-color-added: #a8ff60;
+@syntax-color-modified: #e9c062;
+@syntax-color-removed: #cc6666;

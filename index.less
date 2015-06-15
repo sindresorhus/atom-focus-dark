@@ -1,0 +1,61 @@
+@import './styles/base.less';
+
+.comment,
+.constant,
+.entity,
+.invalid,
+.keyword,
+.markup,
+.meta,
+.storage,
+.string,
+.support,
+.variable,
+.source,
+.link,
+.punctuation.definition.begin.gfm,
+.punctuation.definition.end.gfm,
+.meta.group.braces.tex,
+.punctuation.section.group.begin.tex,
+.punctuation.section.group.end.tex {
+	color: @hidden-color;
+}
+
+.string.quoted,
+.meta.paragraph,
+.entity.name.section,
+.source.gfm,
+.markup.raw.gfm,
+.markup.heading,
+.comment.quote.gfm,
+.entity.gfm,
+.comment.line,
+.comment.block {
+	color: @visible-color;
+}
+
+.markup.underline.link.gfm,
+.markup.underline.link.http.hyperlink,
+.support.function.general.tex,
+.string.other.math.tex,
+.string.other.math.block.environment.latex,
+.constant.other.general.math.tex,
+.meta.group.braces.tex,
+.punctuation.definition.string.begin.tex,
+.punctuation.definition.string.end.tex,
+.punctuation.definition.constant.math.tex,
+.string.other.math.tex .punctuation.section.group.begin.tex,
+.string.other.math.tex .punctuation.section.group.end.tex,
+.string.other.math.block.environment.latex .punctuation.section.group.begin.tex,
+.string.other.math.block.environment.latex .punctuation.section.group.end.tex {
+	color: @dimmed-color;
+}
+
+.string.quoted.double.html,
+.string.quoted.double.xml,
+.markup.heading.marker.gfm,
+.variable.parameter.function.latex,
+.punctuation.definition.arguments.begin.latex,
+.punctuation.definition.arguments.end.latex {
+	color: @hidden-color;
+}
