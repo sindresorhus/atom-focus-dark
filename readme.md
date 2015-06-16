@@ -31,6 +31,8 @@ Find the current scope by pressing `⌘⌥P`.
 
 See [focus-light](https://github.com/sindresorhus/atom-focus-light) for the light version.
 
+[Also available on Sublime Text, TextMate, Vim, Chocolat.](https://github.com/sindresorhus/focus)
+
 
 ## License
 
