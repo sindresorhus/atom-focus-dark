@@ -17,7 +17,11 @@
 .punctuation.definition.end.gfm,
 .meta.group.braces.tex,
 .punctuation.section.group.begin.tex,
-.punctuation.section.group.end.tex {
+.punctuation.section.group.end.tex,
+.table.gfm .border.pipe.outer,
+.table.gfm .border.pipe.inner,
+.table.gfm .border.alignment,
+.table.gfm .border.header {
 	color: @hidden-color;
 }
 
@@ -26,6 +30,9 @@
 .entity.name.section,
 .source.gfm,
 .markup.raw.gfm,
+.markup.italic.gfm,
+.markup.bold.gfm,
+.markup.strike.gfm,
 .markup.heading,
 .comment.quote.gfm,
 .entity.gfm,
@@ -58,4 +65,22 @@
 .punctuation.definition.arguments.begin.latex,
 .punctuation.definition.arguments.end.latex {
 	color: @hidden-color;
+}
+
+.markup.italic.gfm {
+	font-style: italic;
+}
+
+.markup.bold.gfm,
+.markup.heading.heading-1.gfm,
+.markup.heading.heading-2.gfm,
+.markup.heading.heading-3.gfm,
+.markup.heading.heading-4.gfm,
+.markup.heading.heading-5.gfm,
+.markup.heading.heading-6.gfm {
+	font-weight: bold;
+}
+
+.markup.strike.gfm {
+	text-decoration: line-through;
 }
