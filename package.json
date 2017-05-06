@@ -12,7 +12,7 @@
     "url": "sindresorhus.com"
   },
   "engines": {
-    "atom": ">=1.0.0"
+    "atom": ">=1.13.0"
   },
   "keywords": [
     "syntax",
