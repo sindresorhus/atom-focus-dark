@@ -1,16 +1,15 @@
 {
   "name": "focus-dark",
-  "theme": "syntax",
   "version": "1.1.0",
   "description": "Syntax theme that lets you focus on the content",
   "license": "MIT",
   "repository": "sindresorhus/atom-focus-dark",
-  "private": true,
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com"
   },
+  "private": true,
   "engines": {
     "atom": ">=1.13.0"
   },
@@ -20,5 +19,6 @@
     "dark",
     "focus",
     "writing"
-  ]
+  ],
+  "theme": "syntax"
 }

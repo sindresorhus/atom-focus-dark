@@ -2,15 +2,15 @@
 
 > Syntax theme that lets you focus on the content
 
-![](https://github.com/sindresorhus/atom-focus-dark/raw/master/screenshot.png)
+![](screenshot.png)
 
 #### Works perfectly with Markdown
 
-![](https://github.com/sindresorhus/atom-focus-dark/raw/master/screenshot-markdown.png)
+![](screenshot-markdown.png)
 
 #### And LaTeX
 
-![](https://github.com/sindresorhus/atom-focus-dark/raw/master/screenshot-latex.png)
+![](screenshot-latex.png)
 
 
 ## Install
@@ -31,9 +31,9 @@ Find the current scope by pressing `⌘⌥P`.
 
 See [focus-light](https://github.com/sindresorhus/atom-focus-light) for the light version.
 
-[Also available on Sublime Text, TextMate, Vim, Chocolat.](https://github.com/sindresorhus/focus)
+[Also available on Sublime Text, TextMate, Vim, Chocolat, etc.](https://github.com/sindresorhus/focus)
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
