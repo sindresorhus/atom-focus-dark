@@ -29,8 +29,8 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
    You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
-   To have a line break without a paragraph, you will need to use two trailing spaces.  
-   Note that this line is separate, but within the same paragraph.  
+   To have a line break without a paragraph, you will need to use two trailing spaces.
+   Note that this line is separate, but within the same paragraph.
    (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
 * Unordered list can use asterisks
@@ -48,8 +48,8 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 [You can use numbers for reference-style link definitions][1]
 
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+[1]: https://slashdot.org
+[link text itself]: https://www.reddit.com
 
 Inline-style:
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
@@ -59,7 +59,7 @@ Reference-style:
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](https://highlightjs.org/static/demo/).
 
 ```
 No language indicated, so no syntax highlighting in Markdown Here (varies on Github).
